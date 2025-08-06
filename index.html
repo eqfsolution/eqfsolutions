@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EQF Solution - Premium Cable TV & High-Speed Internet Services</title>
-    <meta name="description"
-        content="EQF Solution provides premium cable TV and high-speed internet services with 24/7 customer support and competitive pricing.">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>EQF Solutions - Premium Cable & Internet Services</title>
+    <meta name="description" content="EQF Solutions - Your trusted provider for high-speed internet and premium cable services. Experience the future of connectivity.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="logo-animation">
+                <div class="logo-circle"></div>
+                <div class="logo-text">EQF</div>
+            </div>
+            <div class="loading-text">Loading Excellence...</div>
+            <div class="progress-bar">
+                <div class="progress-fill"></div>
+            </div>
+        </div>
+    </div>
+
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" id="navbar">
         <div class="nav-container">
             <div class="nav-logo">
-                <h2>EQF Solution</h2>
+                <div class="logo-icon">EQF</div>
+                <span>Solutions</span>
             </div>
-            <ul class="nav-menu">
-                <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
-                <li class="nav-item"><a href="#plans" class="nav-link">Plans</a></li>
-                <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
-                <li class="nav-item"><a href="#legal" class="nav-link">Legal</a></li>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#plans" class="nav-link">Plans</a></li>
+                <li><a href="#coverage" class="nav-link">Coverage</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
             </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
         </div>
     </nav>
@@ -39,62 +50,95 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-background"></div>
-        <div class="hero-container">
-            <div class="hero-content">
-                <h1 class="hero-title">Lightning Fast Internet & Premium TV</h1>
-                <p class="hero-subtitle">Experience blazing-fast internet speeds up to 1000 Mbps and over 500 premium
-                    channels with EQF Solution</p>
-                <div class="hero-buttons">
-                    <button class="btn btn-primary">Get Started Today</button>
-                    <button class="btn btn-secondary">View Plans</button>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="highlight">Next-Generation</span><br>
+                        Internet & Cable Solutions
+                    </h1>
+                    <p class="hero-subtitle">Experience lightning-fast internet speeds and crystal-clear entertainment with EQF Solutions. Where technology meets excellence.</p>
+                    <div class="hero-buttons">
+                        <a href="#plans" class="btn btn-primary pulse-animation">
+                            <i class="fas fa-rocket"></i>
+                            Get Started
+                        </a>
+                        <a href="#about" class="btn btn-outline">
+                            <i class="fas fa-play"></i>
+                            Learn More
+                        </a>
+                    </div>
                 </div>
-            </div>
-            <div class="hero-image">
-                <img src="https://images.pexels.com/photos/374074/pexels-photo-374074.jpeg?auto=compress&cs=tinysrgb&w=800"
-                    alt="High-speed internet technology" class="hero-img">
+                <div class="hero-visual">
+                    <div class="floating-card">
+                        <div class="speed-indicator">
+                            <div class="speed-circle">
+                                <span class="speed-number">1000</span>
+                                <span class="speed-unit">Mbps</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
     </section>
 
-    <!-- Features Section -->
-    <section class="features">
+    <!-- About Section -->
+    <section id="about" class="about">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Why Choose EQF Solution?</h2>
-                <p class="section-subtitle">Experience the difference with our premium features and unmatched service
-                    quality</p>
+                <h2 class="section-title">About EQF Solutions</h2>
+                <p class="section-subtitle">Engineering Quality & Future-Ready Connectivity</p>
             </div>
-            <div class="features-grid">
-                <div class="feature-item">
-                    <div class="feature-icon">⚡</div>
-                    <h3>Lightning Fast Speeds</h3>
-                    <p>Up to 1000 Mbps download speeds for seamless streaming and gaming</p>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Pioneering Digital Excellence</h3>
+                    <p>At EQF Solutions, we don't just provide internet and cable services – we engineer digital experiences that transform how you connect, work, and live. Our commitment to quality and innovation has made us the preferred choice for thousands of satisfied customers.</p>
+                    
+                    <div class="features-grid">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-lightning-bolt"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>Lightning Speed</h4>
+                                <p>Up to 1000 Mbps fiber-optic internet</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>99.9% Uptime</h4>
+                                <p>Reliable connection you can count on</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-headset"></i>
+                            </div>
+                            <div class="feature-content">
+                                <h4>24/7 Support</h4>
+                                <p>Expert technical assistance anytime</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="feature-item">
-                    <div class="feature-icon">🛡️</div>
-                    <h3>99.9% Uptime Guarantee</h3>
-                    <p>Reliable connection you can count on, backed by our service guarantee</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">🎯</div>
-                    <h3>No Data Caps</h3>
-                    <p>Unlimited data usage with no throttling or overage charges</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">🔧</div>
-                    <h3>Free Installation</h3>
-                    <p>Professional installation at no extra cost, setup in 2 hours or less</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">📞</div>
-                    <h3>24/7 Support</h3>
-                    <p>Round-the-clock customer support whenever you need assistance</p>
-                </div>
-                <div class="feature-item">
-                    <div class="feature-icon">💰</div>
-                    <h3>Best Price Guarantee</h3>
-                    <p>Competitive pricing with price match guarantee on comparable services</p>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="https://images.pexels.com/photos/442150/pexels-photo-442150.jpeg" alt="Modern Technology Setup" class="main-image">
+                        <div class="floating-stats">
+                            <div class="stat-card">
+                                <div class="stat-number">50K+</div>
+                                <div class="stat-label">Happy Customers</div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -104,85 +148,150 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Our Premium Services</h2>
-                <p class="section-subtitle">Comprehensive solutions for all your connectivity needs</p>
+                <h2 class="section-title">Our Services</h2>
+                <p class="section-subtitle">Comprehensive Digital Solutions for Modern Life</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">🌐</div>
+                    <div class="service-icon">
+                        <i class="fas fa-wifi"></i>
+                    </div>
                     <h3>High-Speed Internet</h3>
-                    <p>Ultra-fast fiber optic internet with speeds up to 1000 Mbps for seamless streaming, gaming, and
-                        working from home.</p>
+                    <p>Fiber-optic internet with speeds up to 1000 Mbps for seamless streaming, gaming, and productivity.</p>
                     <ul class="service-features">
-                        <li>✓ 99.9% Uptime Guarantee</li>
-                        <li>✓ No Data Caps</li>
-                        <li>✓ Free Installation</li>
+                        <li><i class="fas fa-check"></i> Unlimited data</li>
+                        <li><i class="fas fa-check"></i> No throttling</li>
+                        <li><i class="fas fa-check"></i> Free installation</li>
                     </ul>
                 </div>
-                <div class="service-card">
-                    <div class="service-icon">📺</div>
+                <div class="service-card featured">
+                    <div class="service-badge">Most Popular</div>
+                    <div class="service-icon">
+                        <i class="fas fa-tv"></i>
+                    </div>
                     <h3>Premium Cable TV</h3>
-                    <p>Over 500 channels including premium networks, sports packages, and on-demand content available
-                        24/7.</p>
+                    <p>Crystal-clear HD/4K channels with premium content packages and on-demand entertainment.</p>
                     <ul class="service-features">
-                        <li>✓ 4K Ultra HD Quality</li>
-                        <li>✓ Cloud DVR Storage</li>
-                        <li>✓ Premium Channels</li>
+                        <li><i class="fas fa-check"></i> 500+ channels</li>
+                        <li><i class="fas fa-check"></i> 4K streaming</li>
+                        <li><i class="fas fa-check"></i> Premium networks</li>
                     </ul>
                 </div>
                 <div class="service-card">
-                    <div class="service-icon">📞</div>
+                    <div class="service-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
                     <h3>Digital Phone</h3>
-                    <p>Crystal-clear voice quality with unlimited nationwide calling and advanced features like
-                        voicemail-to-email.</p>
+                    <p>Reliable digital phone service with advanced features and crystal-clear call quality.</p>
                     <ul class="service-features">
-                        <li>✓ Unlimited Calling</li>
-                        <li>✓ Advanced Features</li>
-                        <li>✓ Mobile Integration</li>
-                    </ul>
-                </div>
-                <div class="service-card">
-                    <div class="service-icon">🏢</div>
-                    <h3>Business Solutions</h3>
-                    <p>Scalable enterprise solutions with dedicated support, static IPs, and enhanced security features.
-                    </p>
-                    <ul class="service-features">
-                        <li>✓ Dedicated Support</li>
-                        <li>✓ Static IP Addresses</li>
-                        <li>✓ Enterprise Security</li>
+                        <li><i class="fas fa-check"></i> Unlimited calls</li>
+                        <li><i class="fas fa-check"></i> Voicemail</li>
+                        <li><i class="fas fa-check"></i> Call forwarding</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Coverage Area Section -->
-    <section class="coverage">
+    <!-- Why Choose Us Section -->
+    <section id="why-choose" class="why-choose">
         <div class="container">
-            <div class="coverage-content">
-                <div class="coverage-text">
-                    <h2 class="section-title">Extensive Coverage Area</h2>
-                    <p>EQF Solution proudly serves over 50 cities across the region with expanding coverage areas. Check
-                        if our premium services are available in your neighborhood.</p>
-                    <div class="coverage-stats">
-                        <div class="coverage-stat">
-                            <h3>50+</h3>
-                            <p>Cities Covered</p>
+            <div class="why-choose-content">
+                <div class="why-choose-image">
+                    <img src="https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg" alt="Advanced Network Infrastructure" class="main-image">
+                    <div class="floating-elements">
+                        <div class="floating-icon" style="--delay: 0s">
+                            <i class="fas fa-signal"></i>
                         </div>
-                        <div class="coverage-stat">
-                            <h3>500K+</h3>
-                            <p>Homes Connected</p>
+                        <div class="floating-icon" style="--delay: 1s">
+                            <i class="fas fa-globe"></i>
                         </div>
-                        <div class="coverage-stat">
-                            <h3>95%</h3>
-                            <p>Coverage Rate</p>
+                        <div class="floating-icon" style="--delay: 2s">
+                            <i class="fas fa-satellite"></i>
                         </div>
                     </div>
-                    <button class="btn btn-primary" onclick="openModal('coverageModal')">Check Availability</button>
                 </div>
+                <div class="why-choose-text">
+                    <div class="section-header">
+                        <h2 class="section-title">Why Choose EQF Solutions?</h2>
+                        <p class="section-subtitle">Experience the difference with our cutting-edge technology and customer-first approach</p>
+                    </div>
+                    
+                    <div class="reasons-list">
+                        <div class="reason-item">
+                            <div class="reason-number">01</div>
+                            <div class="reason-content">
+                                <h4>Advanced Infrastructure</h4>
+                                <p>State-of-the-art fiber-optic network ensuring maximum speed and reliability for all your digital needs.</p>
+                            </div>
+                        </div>
+                        <div class="reason-item">
+                            <div class="reason-number">02</div>
+                            <div class="reason-content">
+                                <h4>Competitive Pricing</h4>
+                                <p>Premium services at affordable rates with transparent pricing and no hidden fees or surprise charges.</p>
+                            </div>
+                        </div>
+                        <div class="reason-item">
+                            <div class="reason-number">03</div>
+                            <div class="reason-content">
+                                <h4>Expert Support Team</h4>
+                                <p>Dedicated technical experts available 24/7 to ensure your connection stays strong and reliable.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section id="coverage" class="coverage">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Service Coverage</h2>
+                <p class="section-subtitle">Expanding Our Network Across Communities</p>
+            </div>
+            <div class="coverage-content">
                 <div class="coverage-map">
-                    <img src="https://images.pexels.com/photos/1089438/pexels-photo-1089438.jpeg?auto=compress&cs=tinysrgb&w=800"
-                        alt="Coverage map" class="coverage-img">
+                    <div class="map-container">
+                        <div class="map-overlay">
+                            <div class="coverage-stats">
+                                <div class="stat">
+                                    <div class="stat-number">250+</div>
+                                    <div class="stat-label">Cities Covered</div>
+                                </div>
+                                <div class="stat">
+                                    <div class="stat-number">95%</div>
+                                    <div class="stat-label">Coverage Rate</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="coverage-info">
+                    <h3>Nationwide Connectivity</h3>
+                    <p>Our extensive fiber-optic network spans across major metropolitan areas and growing communities, bringing high-speed internet and premium cable services directly to your doorstep.</p>
+                    
+                    <div class="coverage-features">
+                        <div class="coverage-feature">
+                            <i class="fas fa-map-marked-alt"></i>
+                            <span>Urban & Suburban Coverage</span>
+                        </div>
+                        <div class="coverage-feature">
+                            <i class="fas fa-tools"></i>
+                            <span>Professional Installation</span>
+                        </div>
+                        <div class="coverage-feature">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Expanding Network</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#plans" class="btn btn-primary">
+                        Check Availability
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
                 </div>
             </div>
         </div>
@@ -193,209 +302,202 @@
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Choose Your Perfect Plan</h2>
-                <p class="section-subtitle">Flexible packages designed to fit your lifestyle and budget</p>
+                <p class="section-subtitle">Flexible options designed for every lifestyle and budget</p>
             </div>
             <div class="plans-grid">
                 <div class="plan-card">
                     <div class="plan-header">
-                        <h3>Basic Bundle</h3>
+                        <h3>Essential</h3>
                         <div class="plan-price">
                             <span class="currency">$</span>
-                            <span class="amount">49</span>
-                            <span class="period">/month</span>
+                            <span class="amount">39</span>
+                            <span class="period">/mo</span>
                         </div>
                     </div>
                     <div class="plan-features">
-                        <ul>
-                            <li>✓ 100 Mbps Internet</li>
-                            <li>✓ 150+ TV Channels</li>
-                            <li>✓ Free Installation</li>
-                            <li>✓ 24/7 Customer Support</li>
-                        </ul>
+                        <div class="feature">
+                            <i class="fas fa-wifi"></i>
+                            <span>100 Mbps Internet</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tv"></i>
+                            <span>125+ Channels</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-headset"></i>
+                            <span>24/7 Support</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tools"></i>
+                            <span>Free Installation</span>
+                        </div>
                     </div>
-                    <button class="plan-button">Choose Plan</button>
+                    <button class="btn btn-outline plan-btn">Select Plan</button>
                 </div>
+                
                 <div class="plan-card featured">
-                    <div class="plan-badge">Most Popular</div>
+                    <div class="plan-badge">Best Value</div>
                     <div class="plan-header">
-                        <h3>Premium Bundle</h3>
+                        <h3>Professional</h3>
                         <div class="plan-price">
                             <span class="currency">$</span>
-                            <span class="amount">79</span>
-                            <span class="period">/month</span>
+                            <span class="amount">69</span>
+                            <span class="period">/mo</span>
                         </div>
                     </div>
                     <div class="plan-features">
-                        <ul>
-                            <li>✓ 500 Mbps Internet</li>
-                            <li>✓ 300+ TV Channels</li>
-                            <li>✓ Premium Channels Included</li>
-                            <li>✓ Cloud DVR (100 hours)</li>
-                            <li>✓ Free Professional Installation</li>
-                        </ul>
+                        <div class="feature">
+                            <i class="fas fa-wifi"></i>
+                            <span>500 Mbps Internet</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tv"></i>
+                            <span>300+ Channels</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-play"></i>
+                            <span>Premium On-Demand</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-phone"></i>
+                            <span>Digital Phone</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Security Suite</span>
+                        </div>
                     </div>
-                    <button class="plan-button">Choose Plan</button>
+                    <button class="btn btn-primary plan-btn">Select Plan</button>
                 </div>
+                
                 <div class="plan-card">
                     <div class="plan-header">
-                        <h3>Ultimate Bundle</h3>
+                        <h3>Ultimate</h3>
                         <div class="plan-price">
                             <span class="currency">$</span>
                             <span class="amount">99</span>
-                            <span class="period">/month</span>
+                            <span class="period">/mo</span>
                         </div>
                     </div>
                     <div class="plan-features">
-                        <ul>
-                            <li>✓ 1000 Mbps Internet</li>
-                            <li>✓ 500+ TV Channels</li>
-                            <li>✓ All Premium Channels</li>
-                            <li>✓ Unlimited Cloud DVR</li>
-                            <li>✓ Digital Phone Service</li>
-                            <li>✓ Priority Customer Support</li>
-                        </ul>
+                        <div class="feature">
+                            <i class="fas fa-wifi"></i>
+                            <span>1000 Mbps Internet</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-tv"></i>
+                            <span>500+ Channels</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-film"></i>
+                            <span>All Premium Networks</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-mobile-alt"></i>
+                            <span>Mobile App Access</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-crown"></i>
+                            <span>Priority Support</span>
+                        </div>
                     </div>
-                    <button class="plan-button">Choose Plan</button>
+                    <button class="btn btn-outline plan-btn">Select Plan</button>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Technology Section -->
-    <section class="technology">
+    <section id="technology" class="technology">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Cutting-Edge Technology</h2>
-                <p class="section-subtitle">We use the latest technology to deliver superior internet and TV experiences
-                </p>
+                <p class="section-subtitle">Powered by the latest innovations in connectivity and entertainment</p>
             </div>
             <div class="tech-grid">
                 <div class="tech-card">
-                    <div class="tech-icon">🌐</div>
-                    <h3>Fiber Optic Network</h3>
-                    <p>Ultra-fast fiber optic cables deliver consistent speeds and reliability for all your connected
-                        devices.</p>
-                    <ul class="tech-features">
-                        <li>✓ Symmetrical upload/download speeds</li>
-                        <li>✓ Low latency for gaming</li>
-                        <li>✓ Future-proof technology</li>
-                    </ul>
-                </div>
-                <div class="tech-card">
-                    <div class="tech-icon">📡</div>
-                    <h3>Advanced Equipment</h3>
-                    <p>State-of-the-art modems and routers ensure optimal performance throughout your home or business.
-                    </p>
-                    <ul class="tech-features">
-                        <li>✓ Wi-Fi 6 technology</li>
-                        <li>✓ Mesh network support</li>
-                        <li>✓ Smart home integration</li>
-                    </ul>
-                </div>
-                <div class="tech-card">
-                    <div class="tech-icon">📺</div>
-                    <h3>4K Ultra HD</h3>
-                    <p>Crystal-clear 4K streaming with HDR support for the ultimate viewing experience on all your
-                        devices.</p>
-                    <ul class="tech-features">
-                        <li>✓ 4K Ultra HD quality</li>
-                        <li>✓ HDR10 support</li>
-                        <li>✓ Multi-device streaming</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2 class="section-title">About EQF Solution</h2>
-                    <p>For over 15 years, EQF Solution has been at the forefront of telecommunications, providing
-                        reliable internet and cable TV services to millions of customers across the nation.</p>
-                    <p>Our commitment to innovation and customer satisfaction has made us a trusted partner in keeping
-                        you connected to what matters most.</p>
-                    <div class="about-stats">
-                        <div class="stat">
-                            <h3 class="stat-number" data-target="2500000">0</h3>
-                            <p class="stat-label">Happy Customers</p>
-                        </div>
-                        <div class="stat">
-                            <h3 class="stat-number" data-target="99.9">0</h3>
-                            <p class="stat-label">% Uptime</p>
-                        </div>
-                        <div class="stat">
-                            <h3 class="stat-number" data-target="15">0</h3>
-                            <p class="stat-label">Years Experience</p>
-                        </div>
+                    <div class="tech-icon">
+                        <i class="fas fa-network-wired"></i>
                     </div>
+                    <h3>Fiber-Optic Network</h3>
+                    <p>Lightning-fast internet delivered through our state-of-the-art fiber-optic infrastructure for maximum speed and reliability.</p>
                 </div>
-                <div class="about-image">
-                    <img src="https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=800"
-                        alt="EQF Solution team" class="about-img">
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-broadcast-tower"></i>
+                    </div>
+                    <h3>5G Integration</h3>
+                    <p>Future-ready network with 5G integration capabilities for next-generation mobile and IoT connectivity.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-cloud"></i>
+                    </div>
+                    <h3>Cloud-Based Services</h3>
+                    <p>Advanced cloud infrastructure ensuring seamless streaming, storage, and access to your favorite content anywhere.</p>
+                </div>
+                <div class="tech-card">
+                    <div class="tech-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3>Advanced Security</h3>
+                    <p>Military-grade encryption and advanced security protocols protecting your data and privacy at all times.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- FAQ Section -->
-    <section class="faq">
+    <section id="faq" class="faq">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Frequently Asked Questions</h2>
-                <p class="section-subtitle">Find answers to common questions about our services</p>
+                <p class="section-subtitle">Get answers to common questions about our services</p>
             </div>
             <div class="faq-container">
                 <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
+                    <div class="faq-question">
                         <h3>What internet speeds do you offer?</h3>
-                        <span class="faq-toggle">+</span>
+                        <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>We offer a range of speeds from 100 Mbps to 1000 Mbps (1 Gig) to meet different household
-                            needs. Our fiber optic network ensures consistent speeds even during peak usage times.</p>
+                        <p>We offer a range of speeds from 100 Mbps to 1000 Mbps (1 Gig) to meet different needs and budgets. All plans include unlimited data with no throttling.</p>
                     </div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
-                        <h3>Is there a data cap on your internet plans?</h3>
-                        <span class="faq-toggle">+</span>
+                    <div class="faq-question">
+                        <h3>Is professional installation included?</h3>
+                        <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>No, all our internet plans come with unlimited data. Stream, game, and browse as much as you
-                            want without worrying about overage charges or throttling.</p>
+                        <p>Yes, professional installation is included free with all our plans. Our certified technicians will set up your service and ensure everything is working perfectly.</p>
                     </div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
-                        <h3>How long does installation take?</h3>
-                        <span class="faq-toggle">+</span>
+                    <div class="faq-question">
+                        <h3>What's your uptime guarantee?</h3>
+                        <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Professional installation typically takes 2-4 hours depending on your home setup. Our
-                            certified technicians will ensure everything is working perfectly before they leave.</p>
+                        <p>We guarantee 99.9% uptime for all our services. If we don't meet this standard, you'll receive service credits on your next bill.</p>
                     </div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
-                        <h3>Can I bundle internet and TV services?</h3>
-                        <span class="faq-toggle">+</span>
+                    <div class="faq-question">
+                        <h3>Can I bundle internet and cable TV?</h3>
+                        <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Yes! Our bundle packages offer significant savings when you combine internet and TV services.
-                            You can save up to $20/month with our premium bundles.</p>
+                        <p>Absolutely! Our bundle packages offer significant savings when you combine internet, cable TV, and digital phone services.</p>
                     </div>
                 </div>
                 <div class="faq-item">
-                    <div class="faq-question" onclick="toggleFAQ(this)">
-                        <h3>What if I need technical support?</h3>
-                        <span class="faq-toggle">+</span>
+                    <div class="faq-question">
+                        <h3>What customer support do you provide?</h3>
+                        <i class="fas fa-plus"></i>
                     </div>
                     <div class="faq-answer">
-                        <p>Our 24/7 technical support team is always available to help. You can reach us by phone, chat,
-                            or email. Most issues can be resolved remotely within minutes.</p>
+                        <p>We provide 24/7 customer support through multiple channels including phone, chat, and our mobile app. Our expert technicians are always ready to help.</p>
                     </div>
                 </div>
             </div>
@@ -403,49 +505,69 @@
     </section>
 
     <!-- Testimonials Section -->
-    <section class="testimonials">
+    <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">What Our Customers Say</h2>
-                <p class="section-subtitle">Real experiences from real customers</p>
+                <p class="section-subtitle">Real experiences from satisfied customers</p>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
-                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"EQF Solution transformed my home office setup. The internet is
-                        incredibly fast and reliable, perfect for video calls and large file transfers."</p>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"EQF Solutions has been incredible! The internet speed is consistently fast, and I've never experienced any downtime. Perfect for my home office setup."</p>
                     <div class="testimonial-author">
-                        <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&w=150"
-                            alt="Customer" class="author-image">
+                        <div class="author-avatar">
+                            <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg" alt="Sarah Johnson">
+                        </div>
                         <div class="author-info">
                             <h4>Sarah Johnson</h4>
-                            <p>Marketing Director</p>
+                            <span>Remote Worker</span>
                         </div>
                     </div>
                 </div>
+                
                 <div class="testimonial-card">
-                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"The customer service is exceptional. They helped me set up everything
-                        seamlessly, and I haven't had a single issue in over a year."</p>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"The cable TV quality is amazing, and the customer service team is always helpful and responsive. Highly recommend their services!"</p>
                     <div class="testimonial-author">
-                        <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=150"
-                            alt="Customer" class="author-image">
+                        <div class="author-avatar">
+                            <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg" alt="Mike Chen">
+                        </div>
                         <div class="author-info">
                             <h4>Mike Chen</h4>
-                            <p>Software Developer</p>
+                            <span>Family Plan User</span>
                         </div>
                     </div>
                 </div>
+                
                 <div class="testimonial-card">
-                    <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
-                    <p class="testimonial-text">"Great value for money! The TV package has all the channels my family
-                        loves, and the internet never slows down even with multiple devices connected."</p>
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p>"Switched from another provider and couldn't be happier. The installation was seamless, and the speeds are exactly as advertised."</p>
                     <div class="testimonial-author">
-                        <img src="https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=150"
-                            alt="Customer" class="author-image">
+                        <div class="author-avatar">
+                            <img src="https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg" alt="Lisa Rodriguez">
+                        </div>
                         <div class="author-info">
-                            <h4>Emma Rodriguez</h4>
-                            <p>Teacher</p>
+                            <h4>Lisa Rodriguez</h4>
+                            <span>Business Owner</span>
                         </div>
                     </div>
                 </div>
@@ -453,120 +575,65 @@
         </div>
     </section>
 
-    <!-- Special Offers Section -->
-    <section class="offers">
+    <!-- Limited Time Offers Section -->
+    <section id="offers" class="offers">
         <div class="container">
             <div class="section-header">
                 <h2 class="section-title">Limited Time Offers</h2>
-                <p class="section-subtitle">Don't miss out on these exclusive deals for new customers</p>
+                <p class="section-subtitle">Don't miss out on these exclusive deals</p>
             </div>
             <div class="offers-grid">
                 <div class="offer-card">
-                    <div class="offer-badge">New Customer</div>
-                    <h3>First Month Free</h3>
-                    <p>Get your first month of service absolutely free when you sign up for any annual plan.</p>
-                    <div class="offer-savings">Save up to $99</div>
+                    <div class="offer-badge">Hot Deal</div>
+                    <div class="offer-icon">
+                        <i class="fas fa-percent"></i>
+                    </div>
+                    <h3>50% Off First 3 Months</h3>
+                    <p>New customers get 50% off their first three months on any plan. Limited time offer!</p>
+                    <div class="offer-timer">
+                        <div class="timer-item">
+                            <span class="timer-number" id="days">15</span>
+                            <span class="timer-label">Days</span>
+                        </div>
+                        <div class="timer-item">
+                            <span class="timer-number" id="hours">23</span>
+                            <span class="timer-label">Hours</span>
+                        </div>
+                        <div class="timer-item">
+                            <span class="timer-number" id="minutes">45</span>
+                            <span class="timer-label">Min</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="offer-card">
+                    <div class="offer-badge">Bundle Deal</div>
+                    <div class="offer-icon">
+                        <i class="fas fa-gift"></i>
+                    </div>
+                    <h3>Free Premium Upgrade</h3>
+                    <p>Get a free upgrade to our Premium package when you bundle internet and cable TV services.</p>
                     <button class="btn btn-primary">Claim Offer</button>
                 </div>
-                <div class="offer-card featured">
-                    <div class="offer-badge">Best Deal</div>
-                    <h3>Free Premium Upgrade</h3>
-                    <p>Upgrade to our premium channels package at no extra cost for the first 6 months.</p>
-                    <div class="offer-savings">Save $180</div>
-                    <button class="btn btn-primary">Get Upgrade</button>
-                </div>
-                <div class="offer-card">
-                    <div class="offer-badge">Installation</div>
-                    <h3>Free Professional Setup</h3>
-                    <p>Professional installation and setup included with all new service activations.</p>
-                    <div class="offer-savings">Save $150</div>
-                    <button class="btn btn-primary">Schedule Now</button>
-                </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact Section -->
-    <section id="contact" class="contact">
+    <!-- CTA Section -->
+    <section id="cta" class="cta">
         <div class="container">
-            <div class="contact-content">
-                <div class="contact-info">
-                    <h2 class="section-title">Get In Touch</h2>
-                    <p>Ready to upgrade your internet and TV experience? Contact us today!</p>
-                    <div class="contact-details">
-                        <div class="contact-item">
-                            <div class="contact-icon">📞</div>
-                            <div class="contact-text">
-                                <h4>Phone</h4>
-                                <p>1-800-EQF-SOLUTION</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">📧</div>
-                            <div class="contact-text">
-                                <h4>Email</h4>
-                                <p>support@eqfsolution.com</p>
-                            </div>
-                        </div>
-                        <div class="contact-item">
-                            <div class="contact-icon">⏰</div>
-                            <div class="contact-text">
-                                <h4>Hours</h4>
-                                <p>24/7 Customer Support</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <form class="contact-form" id="contactForm">
-                    <h3>Request a Quote</h3>
-                    <div class="form-group">
-                        <input type="text" id="name" name="name" placeholder="Full Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" id="email" name="email" placeholder="Email Address" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
-                    </div>
-                    <div class="form-group">
-                        <select id="service" name="service" required>
-                            <option value="">Select Service Interest</option>
-                            <option value="internet">High-Speed Internet</option>
-                            <option value="tv">Cable TV</option>
-                            <option value="bundle">Internet + TV Bundle</option>
-                            <option value="business">Business Solutions</option>
-                        </select>
-                    </div>
-                    <div class="form-group">
-                        <textarea id="message" name="message" placeholder="Additional Message" rows="4"></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
-                </form>
-            </div>
-        </div>
-    </section>
-
-    <!-- Legal Section -->
-    <section id="legal" class="legal">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Legal Information</h2>
-            </div>
-            <div class="legal-grid">
-                <div class="legal-card" onclick="openModal('privacyModal')">
-                    <h3>Privacy Policy</h3>
-                    <p>Learn how we collect, use, and protect your personal information.</p>
-                    <span class="legal-arrow">→</span>
-                </div>
-                <div class="legal-card" onclick="openModal('termsModal')">
-                    <h3>Terms of Service</h3>
-                    <p>Review our terms and conditions for service usage.</p>
-                    <span class="legal-arrow">→</span>
-                </div>
-                <div class="legal-card" onclick="openModal('cookiesModal')">
-                    <h3>Cookie Policy</h3>
-                    <p>Understand how we use cookies to enhance your experience.</p>
-                    <span class="legal-arrow">→</span>
+            <div class="cta-content">
+                <h2>Ready to Experience the Future?</h2>
+                <p>Join thousands of satisfied customers who've made the switch to EQF Solutions. Get started today and discover the difference premium connectivity can make.</p>
+                <div class="cta-buttons">
+                    <a href="#plans" class="btn btn-primary btn-large">
+                        <i class="fas fa-rocket"></i>
+                        Start Your Journey
+                    </a>
+                    <a href="tel:1-800-EQF-SOLUTIONS" class="btn btn-outline btn-large">
+                        <i class="fas fa-phone"></i>
+                        Call Now
+                    </a>
                 </div>
             </div>
         </div>
@@ -577,173 +644,56 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>EQF Solution</h3>
-                    <p>Your trusted partner for premium cable TV and high-speed internet services.</p>
-                </div>
-                <div class="footer-section">
-                    <h4>Services</h4>
-                    <ul>
-                        <li><a href="#services">High-Speed Internet</a></li>
-                        <li><a href="#services">Cable TV</a></li>
-                        <li><a href="#services">Digital Phone</a></li>
-                        <li><a href="#services">Business Solutions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Support</h4>
-                    <ul>
-                        <li><a href="#contact">Contact Us</a></li>
-                        <li><a href="#legal">Privacy Policy</a></li>
-                        <li><a href="#legal">Terms of Service</a></li>
-                        <li><a href="#">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="footer-section">
-                    <h4>Connect</h4>
+                    <div class="footer-logo">
+                        <div class="logo-icon">EQF</div>
+                        <span>Solutions</span>
+                    </div>
+                    <p>Engineering Quality & Future-Ready Connectivity for modern digital life.</p>
                     <div class="social-links">
-                        <a href="#">📘 Facebook</a>
-                        <a href="#">🐦 Twitter</a>
-                        <a href="#">📸 Instagram</a>
-                        <a href="#">💼 LinkedIn</a>
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
+                
+                <div class="footer-section">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#services">High-Speed Internet</a></li>
+                        <li><a href="#services">Premium Cable TV</a></li>
+                        <li><a href="#services">Digital Phone</a></li>
+                        <li><a href="#plans">Bundle Packages</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Support</h3>
+                    <ul>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#coverage">Coverage Map</a></li>
+                        <li><a href="#contact">Technical Support</a></li>
+                        <li><a href="#contact">Customer Service</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Legal</h3>
+                    <ul>
+                        <li><a href="privacy.html">Privacy Policy</a></li>
+                        <li><a href="terms.html">Terms of Service</a></li>
+                        <li><a href="refund.html">Refund Policy</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
             </div>
+            
             <div class="footer-bottom">
-                <p>&copy; 2024 EQF Solution. All rights reserved.</p>
+                <p>&copy; 2025 EQF Solutions. All rights reserved. | Engineering Excellence in Digital Connectivity</p>
             </div>
         </div>
     </footer>
 
-    <!-- Modals -->
-    <div id="privacyModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('privacyModal')">&times;</span>
-            <h2>Privacy Policy</h2>
-           <div class="modal-body">
-    <h3>Information We Collect</h3>
-    <p><strong>Personal Information:</strong> Including but not limited to your name, address, phone number, and email when you register for services, purchase a plan, or make inquiries.</p>
-    <p><strong>Financial Information:</strong> Credit card or banking details when you pay for services.</p>
-    <p><strong>Usage Data:</strong> IP address, browser type, visited pages, time spent, and device type.</p>
-    <p><strong>Service Data:</strong> Account numbers, plan details, and customer service interactions.</p>
-
-    <h3>Why We Collect Information</h3>
-    <p>To activate services, provide customer support, process billing, and improve user experience. We also use data to send marketing communications (with your consent) and ensure full compliance with Google policies.</p>
-
-    <h3>Third-Party Service Providers</h3>
-    <p>We partner with certified providers (e.g., AT&T, Verizon, Xfinity) and payment processors. They follow strict privacy policies, but we recommend reviewing their terms directly.</p>
-
-    <h3>Transparency in Pricing and Billing</h3>
-    <p>EQF Solution charges execution fees between $49.99–$199.99, separate from your service provider’s fees. All pricing is disclosed clearly before commitment.</p>
-
-    <h3>Data Security</h3>
-    <p>We encrypt personal and financial data during transmission and storage. Only authorized staff can access it, and all payments are processed securely via trusted third-party gateways.</p>
-
-    <h3>Your Rights</h3>
-    <ul>
-        <li>Access or update your personal data</li>
-        <li>Request deletion of your information</li>
-        <li>Opt-out of marketing communications</li>
-        <li>Request a copy of your data (portability)</li>
-    </ul>
-
-    <h3>Google Ad Policy Compliance</h3>
-    <p>We do not mislead users, misuse data, or hide fees. Our practices are fully compliant with Google’s advertising and data transparency standards.</p>
-
-    <h3>Policy Updates</h3>
-    <p>Any updates to our privacy policy will be posted on this page. Major changes will also be communicated via email or site notifications.</p>
-
-    <h3>Contact Us</h3>
-    <p>If you have questions, email us at <a href="mailto:privacy@eqfsolution.com">privacy@eqfsolution.com</a>.</p>
-</div>
-        </div>
-    </div>
-
-    <div id="termsModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('termsModal')">&times;</span>
-           <h2>Terms of Service</h2>
-<div class="modal-body">
-    <h3>Acceptance of Terms</h3>
-    <p>By using EQF Solution services, you agree to be bound by these Terms of Service and all applicable laws and regulations.</p>
-
-    <h3>Service Description</h3>
-    <p>EQF Solution provides cable television, internet, and telecommunications services subject to the terms and conditions set forth herein.</p>
-
-    <h3>Payment Terms</h3>
-    <p>Payment for services is due monthly in advance. Late payments may result in service suspension or termination.</p>
-
-    <h3>Service Level Agreement</h3>
-    <p>We strive to provide 99.9% uptime for our services. Any extended outages will result in appropriate service credits.</p>
-
-    <h3>Termination</h3>
-    <p>Either party may terminate service with 30 days written notice. Early termination fees may apply based on your service agreement.</p>
-</div>
-
-        </div>
-    </div>
-
-    <div id="cookiesModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('cookiesModal')">&times;</span>
-            <h2>Cookie Policy</h2>
-            <div class="modal-body">
-                <h3>What Are Cookies</h3>
-                <p>Cookies are small text files stored on your device when you visit our website. They help us provide
-                    you with a better experience.</p>
-
-                <h3>Types of Cookies We Use</h3>
-                <p><strong>Essential Cookies:</strong> Required for the website to function properly.</p>
-                <p><strong>Analytics Cookies:</strong> Help us understand how visitors interact with our website.</p>
-                <p><strong>Marketing Cookies:</strong> Used to deliver relevant advertisements to you.</p>
-
-                <h3>Managing Cookies</h3>
-                <p>You can control and delete cookies through your browser settings. However, some features of our
-                    website may not function properly without cookies.</p>
-
-                <h3>Updates to This Policy</h3>
-                <p>We may update this Cookie Policy from time to time. We will notify you of any changes by posting the
-                    new policy on this page.</p>
-            </div>
-        </div>
-    </div>
-
-    <div id="coverageModal" class="modal">
-        <div class="modal-content">
-            <span class="close" onclick="closeModal('coverageModal')">&times;</span>
-            <h2>Check Service Availability</h2>
-            <div class="modal-body">
-                <form class="coverage-form">
-                    <div class="form-group">
-                        <label for="address">Street Address</label>
-                        <input type="text" id="address" name="address" placeholder="Enter your street address" required>
-                    </div>
-                    <div class="form-row">
-                        <div class="form-group">
-                            <label for="city">City</label>
-                            <input type="text" id="city" name="city" placeholder="City" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="zip">ZIP Code</label>
-                            <input type="text" id="zip" name="zip" placeholder="ZIP" required>
-                        </div>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Check Availability</button>
-                </form>
-                <div class="coverage-result" id="coverageResult" style="display: none;">
-                    <div class="result-success">
-                        <h3>✓ Great News!</h3>
-                        <p>EQF Solution services are available at your location. Our fastest speeds and premium packages
-                            are ready for installation.</p>
-                        <button class="btn btn-primary"
-                            onclick="closeModal('coverageModal'); document.getElementById('contact').scrollIntoView({behavior: 'smooth'});">Get
-                            Started</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="main.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>
